@@ -121,11 +121,63 @@
       <p>Start free and scale as your business grows</p>
     </div>
     <div class="pricing-grid">
-      <div class="price-card"><div class="plan-name">Basic</div><div class="plan-desc">Perfect for small shops</div><div class="plan-price"><span class="currency">$</span><span class="amount">0</span><span class="period">/month</span></div><ul class="plan-features"><li>✅ 1 Register</li><li>✅ Up to 100 Products</li><li>✅ Basic Sales Reports</li><li>❌ Advanced Analytics</li></ul><a href="#" class="btn-plan outline">Get Started Free</a></div>
-      
-      <div class="price-card popular"><div class="popular-tag">⭐ Most Popular</div><div class="plan-name">Pro</div><div class="plan-desc">For growing businesses</div><div class="plan-price"><span class="currency">$</span><span class="amount">29</span><span class="period">/month</span></div><ul class="plan-features"><li>✅ 5 Registers</li><li>✅ Unlimited Products</li><li>✅ Advanced Reports</li><li>✅ Analytics Dashboard</li></ul><a href="#" class="btn-plan white">Get Started</a></div>
-      
-      <div class="price-card"><div class="plan-name">Enterprise</div><div class="plan-desc">For large operations</div><div class="plan-price"><span class="currency">$</span><span class="amount">99</span><span class="period">/month</span></div><ul class="plan-features"><li>✅ Unlimited Registers</li><li>✅ Unlimited Products</li><li>✅ Custom Reports</li><li>✅ Dedicated Support</li></ul><a href="#" class="btn-plan outline">Contact Sales</a></div>
+      <div class="price-card">
+        <div class="plan-name">Basic</div>
+        <div class="plan-desc">Perfect for small shops</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount">0</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="plan-features">
+          <li>✅ 1 Register</li>
+          <li>✅ Up to 100 Products</li>
+          <li>✅ Basic Sales Reports</li>
+          <li>✅ Email Support</li>
+          <li>❌ Advanced Analytics</li>
+          <li>❌ Integrations</li>
+        </ul>
+        <a href="#" class="btn-plan outline">Get Started Free</a>
+      </div>
+
+      <div class="price-card popular">
+        <div class="popular-tag">⭐ Most Popular</div>
+        <div class="plan-name">Pro</div>
+        <div class="plan-desc">For growing businesses</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount">29</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="plan-features">
+          <li>✅ 5 Registers</li>
+          <li>✅ Unlimited Products</li>
+          <li>✅ Advanced Reports</li>
+          <li>✅ Analytics Dashboard</li>
+          <li>✅ 3 Integrations</li>
+          <li>❌ Custom Branding</li>
+        </ul>
+        <a href="#" class="btn-plan white">Get Started</a>
+      </div>
+
+      <div class="price-card">
+        <div class="plan-name">Enterprise</div>
+        <div class="plan-desc">For large operations</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount">99</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="plan-features">
+          <li>✅ Unlimited Registers</li>
+          <li>✅ Unlimited Products</li>
+          <li>✅ Custom Reports</li>
+          <li>✅ Full Analytics</li>
+          <li>✅ All Integrations</li>
+          <li>✅ Dedicated Support</li>
+        </ul>
+        <a href="#" class="btn-plan outline">Contact Sales</a>
+      </div>
     </div>
   </div>
 </section>

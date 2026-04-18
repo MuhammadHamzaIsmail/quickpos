@@ -320,7 +320,7 @@ body {
   text-decoration: underline;
 }
 
-/* ===== PRICING ===== */
+/* ===== PRICING SECTION ===== */
 .pricing {
   padding: 120px 40px;
   background: white;
@@ -332,6 +332,7 @@ body {
   gap: 30px;
   max-width: 1000px;
   margin: 0 auto;
+  align-items: start;
 }
 
 .price-card {
@@ -339,7 +340,13 @@ body {
   border-radius: 24px;
   padding: 40px 32px;
   position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
   background: white;
+}
+
+.price-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
 }
 
 .price-card.popular {
@@ -360,6 +367,7 @@ body {
   border-radius: 20px;
   font-size: 12px;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .plan-name {
@@ -368,13 +376,41 @@ body {
   margin-bottom: 4px;
 }
 
+.plan-desc {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 24px;
+}
+
+.price-card.popular .plan-desc {
+  color: rgba(255,255,255,0.7);
+}
+
 .plan-price {
   margin-bottom: 28px;
+}
+
+.currency {
+  font-size: 20px;
+  font-weight: 700;
+  vertical-align: top;
 }
 
 .amount {
   font-size: 56px;
   font-weight: 800;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.period {
+  font-size: 14px;
+  color: #999;
+  margin-left: 4px;
+}
+
+.price-card.popular .period {
+  color: rgba(255,255,255,0.7);
 }
 
 .plan-features {
@@ -385,6 +421,11 @@ body {
 .plan-features li {
   padding: 9px 0;
   font-size: 14px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.price-card.popular .plan-features li {
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 .btn-plan {
@@ -393,17 +434,29 @@ body {
   border-radius: 30px;
   text-decoration: none;
   font-weight: 700;
+  font-size: 15px;
   text-align: center;
+  transition: all 0.3s;
 }
 
 .btn-plan.outline {
   border: 2px solid #6c63ff;
   color: #6c63ff;
+  background: transparent;
+}
+
+.btn-plan.outline:hover {
+  background: #6c63ff;
+  color: white;
 }
 
 .btn-plan.white {
   background: white;
   color: #6c63ff;
+}
+
+.btn-plan.white:hover {
+  background: #f0efff;
 }
 
 /* ===== CONTACT ===== */
