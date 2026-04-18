@@ -459,7 +459,7 @@ body {
   background: #f0efff;
 }
 
-/* ===== CONTACT ===== */
+/* ===== CONTACT SECTION ===== */
 .contact {
   padding: 120px 40px;
   background: #f9f9ff;
@@ -471,12 +471,20 @@ body {
   gap: 80px;
   max-width: 1000px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .contact-info h2 {
   font-size: 36px;
   font-weight: 800;
   margin-bottom: 16px;
+  margin-top: 12px;
+}
+
+.contact-info p {
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 32px;
 }
 
 .contact-details {
@@ -505,6 +513,7 @@ body {
   display: block;
   font-size: 13px;
   font-weight: 600;
+  color: #444;
   margin-bottom: 8px;
 }
 
@@ -515,6 +524,20 @@ body {
   border: 2px solid #eee;
   border-radius: 12px;
   font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  transition: border-color 0.3s;
+  outline: none;
+  background: #fafafa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #6c63ff;
+  background: white;
+}
+
+.form-group textarea {
+  resize: vertical;
 }
 
 .btn-submit {
@@ -524,10 +547,16 @@ body {
   padding: 16px;
   border: none;
   border-radius: 30px;
+  font-size: 16px;
   font-weight: 700;
   cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.btn-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(108,99,255,0.45);
+}
 /* ===== FOOTER ===== */
 .footer {
   background: #0f0f1a;
