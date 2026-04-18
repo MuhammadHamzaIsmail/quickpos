@@ -220,10 +220,46 @@
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
   <div class="footer-top">
-    <div class="footer-brand"><div class="footer-logo">⚡ QuickPOS</div><p>The modern point of sale system for businesses.</p><div class="social-links"><a href="#" class="social-btn">Facebook</a><a href="#" class="social-btn">Twitter</a><a href="#" class="social-btn">Instagram</a></div></div>
-    <div class="footer-links"><div class="footer-col"><h4>Product</h4><ul><li><a href="#features">Features</a></li><li><a href="#pricing">Pricing</a></li></ul></div><div class="footer-col"><h4>Company</h4><ul><li><a href="#">About Us</a></li><li><a href="#contact">Contact</a></li></ul></div><div class="footer-col"><h4>Support</h4><ul><li><a href="#">Help Center</a></li><li><a href="#">Privacy Policy</a></li></ul></div></div>
+    <div class="footer-brand">
+      <div class="footer-logo">⚡ QuickPOS</div>
+      <p>The modern point of sale system for businesses that want to grow fast and operate smart.</p>
+      <div class="social-links">
+        <a href="#" class="social-btn">Facebook</a>
+        <a href="#" class="social-btn">Twitter</a>
+        <a href="#" class="social-btn">Instagram</a>
+        <a href="#" class="social-btn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="footer-bottom"><p>© 2025 QuickPOS. All rights reserved. Built with ❤️ for modern businesses.</p></div>
+  <div class="footer-bottom">
+    <p>© 2025 QuickPOS. All rights reserved. Built with ❤️ for modern businesses.</p>
+  </div>
 </footer>
 
 </body>
