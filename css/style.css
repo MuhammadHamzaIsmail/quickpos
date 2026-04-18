@@ -84,7 +84,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* ===== HERO ===== */
+/* ===== HERO SECTION CSS - ADD THIS ===== */
 .hero {
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -157,7 +157,7 @@ body {
   color: white;
 }
 
-/* Mockup */
+/* Mockup styles */
 .mockup-box {
   background: white;
   border-radius: 20px;
@@ -229,7 +229,6 @@ body {
 .chart-bar.active {
   background: #6c63ff;
 }
-
 /* ===== FEATURES ===== */
 .container {
   max-width: 1200px;
