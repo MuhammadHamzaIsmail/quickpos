@@ -189,18 +189,27 @@
       <div class="contact-info">
         <span class="section-tag">Contact Us</span>
         <h2>Let's Start a Conversation</h2>
-        <p>Have questions about QuickPOS? We are here to help.</p>
+        <p>Have questions about QuickPOS? We are here to help you find the right plan for your business.</p>
         <div class="contact-details">
           <div class="contact-item">📧 support@quickpos.com</div>
           <div class="contact-item">📞 +1 (800) 123-4567</div>
-          <div class="contact-item">📍 123 Business Ave, New York</div>
+          <div class="contact-item">📍 123 Business Ave, New York NY</div>
         </div>
       </div>
       <div class="contact-form-wrap">
         <form action="contact.php" method="POST" class="contact-form">
-          <div class="form-group"><label>Full Name</label><input type="text" name="name" placeholder="John Smith"></div>
-          <div class="form-group"><label>Email Address</label><input type="email" name="email" placeholder="john@example.com"></div>
-          <div class="form-group"><label>Message</label><textarea name="message" rows="5" placeholder="Tell us about your business needs..."></textarea></div>
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" rows="5" placeholder="Tell us about your business needs..."></textarea>
+          </div>
           <button type="submit" class="btn-submit">Send Message ✉️</button>
         </form>
       </div>
