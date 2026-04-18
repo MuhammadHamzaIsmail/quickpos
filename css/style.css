@@ -229,16 +229,16 @@ body {
 .chart-bar.active {
   background: #6c63ff;
 }
-/* ===== FEATURES ===== */
+/* ===== FEATURES SECTION ===== */
+.features {
+  padding: 120px 40px;
+  background: #f9f9ff;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
-}
-
-.features {
-  padding: 120px 40px;
-  background: #f9f9ff;
 }
 
 .section-header {
@@ -261,6 +261,12 @@ body {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.section-header p {
+  color: #888;
+  font-size: 18px;
 }
 
 .features-grid {
@@ -274,11 +280,13 @@ body {
   padding: 36px 28px;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #f0f0f0;
 }
 
 .feature-card:hover {
   transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(108,99,255,0.12);
 }
 
 .feature-icon-wrap {
@@ -290,6 +298,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 12px;
+  color: #1a1a2e;
 }
 
 .feature-card p {
@@ -302,7 +311,13 @@ body {
 .feature-link {
   color: #6c63ff;
   text-decoration: none;
+  font-size: 14px;
   font-weight: 600;
+  transition: gap 0.3s;
+}
+
+.feature-link:hover {
+  text-decoration: underline;
 }
 
 /* ===== PRICING ===== */

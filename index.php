@@ -84,10 +84,30 @@
       <p>Powerful tools designed for speed, simplicity, and scale</p>
     </div>
     <div class="features-grid">
-      <div class="feature-card"><div class="feature-icon-wrap">📦</div><h3>Inventory Management</h3><p>Track stock levels in real time. Get low stock alerts automatically.</p><a href="#" class="feature-link">Learn more →</a></div>
-      <div class="feature-card"><div class="feature-icon-wrap">📊</div><h3>Sales Analytics</h3><p>Understand your best sellers, peak hours, and revenue trends.</p><a href="#" class="feature-link">Learn more →</a></div>
-      <div class="feature-card"><div class="feature-icon-wrap">🔗</div><h3>Easy Integration</h3><p>Connect instantly with payment gateways and accounting tools.</p><a href="#" class="feature-link">Learn more →</a></div>
-      <div class="feature-card"><div class="feature-icon-wrap">☁️</div><h3>Cloud Based</h3><p>Access your data from any device, anywhere. Always secure.</p><a href="#" class="feature-link">Learn more →</a></div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">📦</div>
+        <h3>Inventory Management</h3>
+        <p>Track stock levels in real time. Get low stock alerts automatically and never oversell again.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">📊</div>
+        <h3>Sales Analytics</h3>
+        <p>Understand your best sellers, peak hours, and revenue trends with beautiful real time charts.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">🔗</div>
+        <h3>Easy Integration</h3>
+        <p>Connect instantly with payment gateways, accounting tools, and ecommerce platforms.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">☁️</div>
+        <h3>Cloud Based</h3>
+        <p>Access your data from any device, anywhere. Your data is always safe, secure and backed up.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
     </div>
   </div>
 </section>
