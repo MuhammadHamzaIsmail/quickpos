@@ -217,11 +217,14 @@
   </div>
 </section>
 
+
 <!-- ===== FOOTER ===== -->
+
+
 <footer class="footer">
   <div class="footer-top">
     <div class="footer-brand">
-      <div class="footer-logo">⚡ QuickPOS</div>
+      <div class="footer-logo"> QuickPOS</div>
       <p>The modern point of sale system for businesses that want to grow fast and operate smart.</p>
       <div class="social-links">
         <a href="#" class="social-btn">Facebook</a>
@@ -258,7 +261,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2025 QuickPOS. All rights reserved. Built with ❤️ for modern businesses.</p>
+    <p>© 2025 QuickPOS. All rights reserved. Built for modern businesses.</p>
   </div>
 </footer>
 
