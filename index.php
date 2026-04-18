@@ -25,7 +25,7 @@
   </div>
 </nav>
 
-<!-- ===== HERO SECTION (QUIC-17,18,19,20,21) ===== -->
+<!-- ===== ADD THIS HERO SECTION CODE ===== -->
 <section class="hero" id="home">
   <div class="hero-container">
     <div class="hero-text">
@@ -84,10 +84,30 @@
       <p>Powerful tools designed for speed, simplicity, and scale</p>
     </div>
     <div class="features-grid">
-      <div class="feature-card"><div class="feature-icon-wrap">📦</div><h3>Inventory Management</h3><p>Track stock levels in real time. Get low stock alerts automatically.</p><a href="#" class="feature-link">Learn more →</a></div>
-      <div class="feature-card"><div class="feature-icon-wrap">📊</div><h3>Sales Analytics</h3><p>Understand your best sellers, peak hours, and revenue trends.</p><a href="#" class="feature-link">Learn more →</a></div>
-      <div class="feature-card"><div class="feature-icon-wrap">🔗</div><h3>Easy Integration</h3><p>Connect instantly with payment gateways and accounting tools.</p><a href="#" class="feature-link">Learn more →</a></div>
-      <div class="feature-card"><div class="feature-icon-wrap">☁️</div><h3>Cloud Based</h3><p>Access your data from any device, anywhere. Always secure.</p><a href="#" class="feature-link">Learn more →</a></div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">📦</div>
+        <h3>Inventory Management</h3>
+        <p>Track stock levels in real time. Get low stock alerts automatically and never oversell again.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">📊</div>
+        <h3>Sales Analytics</h3>
+        <p>Understand your best sellers, peak hours, and revenue trends with beautiful real time charts.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">🔗</div>
+        <h3>Easy Integration</h3>
+        <p>Connect instantly with payment gateways, accounting tools, and ecommerce platforms.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">☁️</div>
+        <h3>Cloud Based</h3>
+        <p>Access your data from any device, anywhere. Your data is always safe, secure and backed up.</p>
+        <a href="#" class="feature-link">Learn more →</a>
+      </div>
     </div>
   </div>
 </section>
@@ -101,11 +121,63 @@
       <p>Start free and scale as your business grows</p>
     </div>
     <div class="pricing-grid">
-      <div class="price-card"><div class="plan-name">Basic</div><div class="plan-desc">Perfect for small shops</div><div class="plan-price"><span class="currency">$</span><span class="amount">0</span><span class="period">/month</span></div><ul class="plan-features"><li>✅ 1 Register</li><li>✅ Up to 100 Products</li><li>✅ Basic Sales Reports</li><li>❌ Advanced Analytics</li></ul><a href="#" class="btn-plan outline">Get Started Free</a></div>
-      
-      <div class="price-card popular"><div class="popular-tag">⭐ Most Popular</div><div class="plan-name">Pro</div><div class="plan-desc">For growing businesses</div><div class="plan-price"><span class="currency">$</span><span class="amount">29</span><span class="period">/month</span></div><ul class="plan-features"><li>✅ 5 Registers</li><li>✅ Unlimited Products</li><li>✅ Advanced Reports</li><li>✅ Analytics Dashboard</li></ul><a href="#" class="btn-plan white">Get Started</a></div>
-      
-      <div class="price-card"><div class="plan-name">Enterprise</div><div class="plan-desc">For large operations</div><div class="plan-price"><span class="currency">$</span><span class="amount">99</span><span class="period">/month</span></div><ul class="plan-features"><li>✅ Unlimited Registers</li><li>✅ Unlimited Products</li><li>✅ Custom Reports</li><li>✅ Dedicated Support</li></ul><a href="#" class="btn-plan outline">Contact Sales</a></div>
+      <div class="price-card">
+        <div class="plan-name">Basic</div>
+        <div class="plan-desc">Perfect for small shops</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount">0</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="plan-features">
+          <li>✅ 1 Register</li>
+          <li>✅ Up to 100 Products</li>
+          <li>✅ Basic Sales Reports</li>
+          <li>✅ Email Support</li>
+          <li>❌ Advanced Analytics</li>
+          <li>❌ Integrations</li>
+        </ul>
+        <a href="#" class="btn-plan outline">Get Started Free</a>
+      </div>
+
+      <div class="price-card popular">
+        <div class="popular-tag">⭐ Most Popular</div>
+        <div class="plan-name">Pro</div>
+        <div class="plan-desc">For growing businesses</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount">29</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="plan-features">
+          <li>✅ 5 Registers</li>
+          <li>✅ Unlimited Products</li>
+          <li>✅ Advanced Reports</li>
+          <li>✅ Analytics Dashboard</li>
+          <li>✅ 3 Integrations</li>
+          <li>❌ Custom Branding</li>
+        </ul>
+        <a href="#" class="btn-plan white">Get Started</a>
+      </div>
+
+      <div class="price-card">
+        <div class="plan-name">Enterprise</div>
+        <div class="plan-desc">For large operations</div>
+        <div class="plan-price">
+          <span class="currency">$</span>
+          <span class="amount">99</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="plan-features">
+          <li>✅ Unlimited Registers</li>
+          <li>✅ Unlimited Products</li>
+          <li>✅ Custom Reports</li>
+          <li>✅ Full Analytics</li>
+          <li>✅ All Integrations</li>
+          <li>✅ Dedicated Support</li>
+        </ul>
+        <a href="#" class="btn-plan outline">Contact Sales</a>
+      </div>
     </div>
   </div>
 </section>
@@ -117,18 +189,27 @@
       <div class="contact-info">
         <span class="section-tag">Contact Us</span>
         <h2>Let's Start a Conversation</h2>
-        <p>Have questions about QuickPOS? We are here to help.</p>
+        <p>Have questions about QuickPOS? We are here to help you find the right plan for your business.</p>
         <div class="contact-details">
           <div class="contact-item">📧 support@quickpos.com</div>
           <div class="contact-item">📞 +1 (800) 123-4567</div>
-          <div class="contact-item">📍 123 Business Ave, New York</div>
+          <div class="contact-item">📍 123 Business Ave, New York NY</div>
         </div>
       </div>
       <div class="contact-form-wrap">
         <form action="contact.php" method="POST" class="contact-form">
-          <div class="form-group"><label>Full Name</label><input type="text" name="name" placeholder="John Smith"></div>
-          <div class="form-group"><label>Email Address</label><input type="email" name="email" placeholder="john@example.com"></div>
-          <div class="form-group"><label>Message</label><textarea name="message" rows="5" placeholder="Tell us about your business needs..."></textarea></div>
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" rows="5" placeholder="Tell us about your business needs..."></textarea>
+          </div>
           <button type="submit" class="btn-submit">Send Message ✉️</button>
         </form>
       </div>
@@ -139,10 +220,46 @@
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
   <div class="footer-top">
-    <div class="footer-brand"><div class="footer-logo">⚡ QuickPOS</div><p>The modern point of sale system for businesses.</p><div class="social-links"><a href="#" class="social-btn">Facebook</a><a href="#" class="social-btn">Twitter</a><a href="#" class="social-btn">Instagram</a></div></div>
-    <div class="footer-links"><div class="footer-col"><h4>Product</h4><ul><li><a href="#features">Features</a></li><li><a href="#pricing">Pricing</a></li></ul></div><div class="footer-col"><h4>Company</h4><ul><li><a href="#">About Us</a></li><li><a href="#contact">Contact</a></li></ul></div><div class="footer-col"><h4>Support</h4><ul><li><a href="#">Help Center</a></li><li><a href="#">Privacy Policy</a></li></ul></div></div>
+    <div class="footer-brand">
+      <div class="footer-logo">⚡ QuickPOS</div>
+      <p>The modern point of sale system for businesses that want to grow fast and operate smart.</p>
+      <div class="social-links">
+        <a href="#" class="social-btn">Facebook</a>
+        <a href="#" class="social-btn">Twitter</a>
+        <a href="#" class="social-btn">Instagram</a>
+        <a href="#" class="social-btn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="footer-bottom"><p>© 2025 QuickPOS. All rights reserved. Built with ❤️ for modern businesses.</p></div>
+  <div class="footer-bottom">
+    <p>© 2025 QuickPOS. All rights reserved. Built with ❤️ for modern businesses.</p>
+  </div>
 </footer>
 
 </body>
