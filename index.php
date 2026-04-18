@@ -25,7 +25,7 @@
   </div>
 </nav>
 
-<!-- ===== HERO SECTION (QUIC-17,18,19,20,21) ===== -->
+<!-- ===== ADD THIS HERO SECTION CODE ===== -->
 <section class="hero" id="home">
   <div class="hero-container">
     <div class="hero-text">
